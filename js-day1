@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js思考</title>
+</head>
+<body>
+	<h1>一个三位数  分别求出个位 十位 百位上的数</h1>
+	<script type="text/javascript">
+		var a = parseInt(prompt("输入三位数"));
+
+		var baiwei = parseInt(a/100);
+		// alert("百位上的数为" + baiwei);
+		var shiwei = parseInt((a%100)/10);
+		// alert("十位上的数为" + shiwei);
+		var gewei = parseInt(a%10);
+		// alert("个位上的数为" + gewei);
+		document.write("百位上的数为" + baiwei + ",十位上的数为" + shiwei + ",个位上的数为" + gewei);
+
+	</script>
+</body>
+</html>
