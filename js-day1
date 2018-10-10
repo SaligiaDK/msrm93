@@ -10,6 +10,7 @@
 		var a = parseInt(prompt("输入三位数"));
 
 		var baiwei = parseInt(a/100);
+		//parseInt();取整
 		// alert("百位上的数为" + baiwei);
 		var shiwei = parseInt((a%100)/10);
 		// alert("十位上的数为" + shiwei);
